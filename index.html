@@ -3,68 +3,52 @@
 <head>
         <meta charset="utf-8">
 
-  <title>Beautiful Website</title>
-  <style>
-    /* General styles */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-color: #282a36;
-      color: #fff;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-    /* Styles for the buttons */
-    .buttons {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+	<title>Beautiful Website</title>
+	<style>
+    		/* General styles */
+    		body {
+      			font-family: sans-serif;
+      			background-color: #282a36;
+      			color: #fff;
+    		}
+    		h1, h2 {
+			font-size: 35px;
+      			
+    		}
+    			/* Styles for the buttons */
+    		.buttons {
       
-    }
-    .buttons button {
-      padding: 10px 20px;
-      border: none;
-      background-color: #444;
-      color: #fff;
-      font-size: 16px;
-      margin: 1%;
-      margin-bottom: 5%;
-    }
+    		}
+    		.buttons button {
+			padding: 10px 10px 10px 10px;	
+      			border: 5px solid black;
+			border-radius: 12px;
+      			background-color: #444;
+      			color: #fff;
+      			font-size: 28px;
+    		}
     /* Styles for the main text area */
-    .main-text {
-      width: 90%;
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      font-size: 24px;
-      text-align: center;
-    }
-  </style>
-  <style type="text/css">
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
-display:none;
-}
-</style>
+    
+		.main-text {
+			margin: 0 auto;
+      			padding: 20px;
+      			font-size: 30px;
+    		}
+	</style>
+
 </head>
 <body>
-  <h1 id="classe"> </h1>
-  <div class="main-text">
-    <p id="text">
+  	<h1 id="classe"></h1>
+  	<div class="main-text">
+    	<p id="text"> </p>   
 
-    </p>   
-    </div>
-  <div class="buttons">
-    <button id="button1">Offensive</button>
-    <button id="button0">Not Offensive</button><br>
-    <button id="saveButton">Save Progress</button>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
-  <script src="script.js"></script>
+  	<div class="buttons">
+    		<button id="button1">Offensive</button>
+    		<button id="button0">Not Offensive</button><br>
+    		<button id="savebutton">Save Progress</button>
+  	</div>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+  	<script src="script.js"></script>
 </body>
 </html>

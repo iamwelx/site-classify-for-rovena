@@ -61,8 +61,8 @@ Papa.parse('csv/file1.csv', {
     });
 
     // Add an event listener for the save button
-    const saveButton = document.getElementById('saveButton');
-    saveButton.addEventListener('click', () => {
+    const savebutton = document.getElementById('savebutton');
+    savebutton.addEventListener('click', () => {
       // Convert the updated data array to a CSV string
       const csv = Papa.unparse(data);
       //saveAs(new Blob([csv], { type: 'text/csv' }), 'file.csv');
